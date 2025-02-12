@@ -1,0 +1,49 @@
+.weekly-spend-chart {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.chart-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.chart-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.chart-container {
+    position: relative;
+    padding-top: 1rem;
+}
+
+.total-spend {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+.total-spend h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4B3621;
+}
+
+.total-spend p {
+    color: #666;
+    font-size: 16px;
+}
+.additional-info {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 1rem;
+}

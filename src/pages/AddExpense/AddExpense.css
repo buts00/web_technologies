@@ -1,0 +1,78 @@
+/* AddExpense.css */
+
+.add-expense {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+    min-width: 400px;
+    background-color: #FFFFFF;
+    border: 1px solid #F8F9FA;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.add-expense-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.add-expense-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #999999;
+    margin-bottom: 1.5rem;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.input .select  {
+    border: 1px solid #F8F9FA;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333333;
+    background-color: #FAF9F6;
+    padding: 0.5rem;
+}
+
+
+
+
+.input:focus,
+.select:focus {
+    border-color: #F0AD4E;
+    outline: none;
+}
+
+.error {
+    color: #F0AD4E;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: block;
+}
+
+.add-expense-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #F0AD4E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-expense-button:hover {
+    background-color: #E39C40;
+}

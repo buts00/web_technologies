@@ -1,0 +1,26 @@
+.dashboard-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.charts-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 20px;
+    background-color: #FAF9F6;
+    border-radius: 20px;
+}
+
+.weekly-spend-chart {
+    flex: 1;
+}
+
+.actions-section {
+    flex: 1;
+}
+
+.all-transactions {
+    flex: 1;
+}

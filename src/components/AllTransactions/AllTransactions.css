@@ -1,0 +1,54 @@
+.all-transactions {
+    background-color: #FAF9F6;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgba(0.1, 0, 0, 0.1);
+    margin: 20px 20px;
+    padding-left: 20px;
+}
+
+.all-transactions h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    color: #999;
+    font-weight: normal;
+    padding-bottom: 0.5rem;
+}
+
+td {
+    font-size: 16px;
+    padding: 15px 0;
+    color: #4B3621;
+}
+
+tr {
+    border-bottom: 1px solid #EEE;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.status {
+    color: #32CD32;
+    font-weight: bold;
+}
+
+.status.pending {
+    color: red;
+}
